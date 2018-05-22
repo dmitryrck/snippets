@@ -1,0 +1,12 @@
+show do
+  attributes_table do
+    row :name
+    row :photo do |event|
+      cl_image_tag event.photo
+    end
+    row :created_at
+    row :updated_at
+  end
+
+  active_admin_comments
+end

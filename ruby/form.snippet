@@ -1,0 +1,8 @@
+form do |f|
+  inputs t("active_admin.details", model: resource_class) do
+    input :${1:name}, input_html: { autofocus: true }
+    input :published_at, as: :string
+  end
+
+  actions
+end
