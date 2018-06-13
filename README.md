@@ -3,7 +3,7 @@
 Clone to `~/.vim/snippets` or `~/.config/nvim/snippets`:
 
 ```terminal
-$ git clone https://github.com/dmitryrck/snippets.git ~/.config/snippets
+$ git clone https://github.com/dmitryrck/snippets.git ~/.vim/snippets
 ```
 
 Add to your `.vimrc` or `~/.config/nvim/init.vim`:
